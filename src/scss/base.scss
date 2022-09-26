@@ -1,0 +1,24 @@
+// Fonts import
+// Heading
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+// Paragraph
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+
+// Colors
+$color-dark: rgb(20, 27, 37);
+$color-golden: rgb(191, 146, 91);
+$color-beige: rgb(235, 232, 222);
+
+// Font
+h1, h2, h3, h4 {
+    font-family: 'Cabin', sans-serif;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+}
+
+body {
+    background: white;
+}
+
