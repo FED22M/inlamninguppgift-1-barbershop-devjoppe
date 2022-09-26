@@ -1,3 +1,41 @@
 .navbar {
     background: $color-darka-alpha;
+    display: flex;
+    align-items: center;
+    height:80px;
 }
+
+.navbar--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    .title {
+        h1 {
+            color: white;
+            font-weight: bold;
+            font-size: 1.75rem;
+        }
+    }
+    .nav {
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin-left: 2rem;
+                a {
+                    font-family: 'Barlow Semi Condensed', sans-serif;
+                    font-size: 1.25rem;
+                    font-weight: 700;
+                    color: $color-gray;
+                    background: red;               
+                }
+                a.selected {
+                    color: $color-golden;
+                }
+            }
+        }
+    
+    }
+}
+

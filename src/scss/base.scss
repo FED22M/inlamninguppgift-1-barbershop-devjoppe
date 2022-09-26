@@ -1,25 +1,29 @@
 // Fonts import
 // Heading
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@300;400;500;600;700&display=swap');
 // Paragraph
-@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 // Colors
 $color-dark: rgb(20, 27, 37);
 $color-darka-alpha: rgba(20, 27, 37, 0.7);
 $color-golden: rgb(191, 146, 91);
 $color-beige: rgb(235, 232, 222);
+$color-gray: #B9B9B7;
 
 // Font
 h1, h2, h3, h4 {
-    font-family: 'Cabin', sans-serif;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-p {
-    font-family: 'Cabin', sans-serif;
+a {
+    text-decoration: none;
 }
 
 body {
+    font-family: 'Poppins', sans-serif;
     background: white;
     margin: 0;
 }
