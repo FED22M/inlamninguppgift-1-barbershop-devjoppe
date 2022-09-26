@@ -33,13 +33,23 @@
     flex: 1;
     padding: 64px;
     padding-top: 128px;
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 2rem;
+    }
     span {
         font-size: 3.4rem;
+    }
+    p {
+        color: $color-gray-dark;
     }
 }
 
 // Image block
 .image--block {
     flex: 1;
-    background: blue;
+    background-image: url("../images/about-us.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
 }

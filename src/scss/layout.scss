@@ -37,6 +37,10 @@ header, section {
     display: flex;
 }
 
+.bg-beige {
+    background: $color-beige;
+}
+
 .test-red {
     background: red;
 }
