@@ -12,6 +12,7 @@ $color-golden: rgb(191, 146, 91);
 $color-golden-dark: #B78649;
 $color-beige: rgb(235, 232, 222);
 $color-gray: #B9B9B7;
+$color-gray-dark: #333333;
 
 // Font
 h1, h2, h3, h4 {
@@ -20,12 +21,33 @@ h1, h2, h3, h4 {
     padding: 0;
 }
 
+h2 {
+    color: $color-golden;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
 a {
     text-decoration: none;
 }
 
+p {
+    line-height: 32px;
+}
+
 hr {
     color: white;
+}
+
+span {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    color: $color-gray-dark;
 }
 
 body {

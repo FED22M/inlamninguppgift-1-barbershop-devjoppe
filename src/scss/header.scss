@@ -3,23 +3,18 @@
     height: 50%;
     color: white;
     span {
-        color: $color-golden;
-        text-transform: uppercase;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
-        font-size: 1.2rem;
-    }
-    h2 {
+        color: white;
         font-size: 4.5rem;
-        text-transform: uppercase;
-        margin-bottom: 1rem;
-        span {
-            color: white;
-            font-weight: 700;
-            font-size: 4.5rem;
-            -webkit-text-fill-color: transparent;
-            -webkit-text-stroke: 1px;
-        }
+    }
+}
+
+span {
+    &.outliner {
+    color: white;
+    font-weight: 700;
+    font-size: 4.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
     }
 }
 

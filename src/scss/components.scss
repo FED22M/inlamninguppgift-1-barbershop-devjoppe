@@ -1,3 +1,4 @@
+// Service cards
 .services--card {
     text-align: center;
     padding: 2rem;
@@ -13,7 +14,7 @@
     }
     img {
         width: 100%;
-        max-width: 320px;
+        max-width: 300px;
         border-radius: 50%;
     }
     h3 {
@@ -25,5 +26,20 @@
     p {
         color: $color-beige;
     }
+}
 
+// Text block
+.text--block {
+    flex: 1;
+    padding: 64px;
+    padding-top: 128px;
+    span {
+        font-size: 3.4rem;
+    }
+}
+
+// Image block
+.image--block {
+    flex: 1;
+    background: blue;
 }
