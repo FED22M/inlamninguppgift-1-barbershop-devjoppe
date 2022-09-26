@@ -1,8 +1,8 @@
 .navbar {
-    background: $color-darka-alpha;
-    display: flex;
+    background: $color-darka-alpha-70;
     align-items: center;
     height:80px;
+    justify-content: center;
 }
 
 .navbar--content {
@@ -25,10 +25,9 @@
                 margin-left: 2rem;
                 a {
                     font-family: 'Barlow Semi Condensed', sans-serif;
-                    font-size: 1.25rem;
+                    font-size: 1.125rem;
                     font-weight: 700;
-                    color: $color-gray;
-                    background: red;               
+                    color: $color-gray;              
                 }
                 a.selected {
                     color: $color-golden;
@@ -39,3 +38,14 @@
     }
 }
 
+.navbar--dashed {
+    width: inherit;
+    background: $color-darka-alpha-80;
+    hr {
+        border-style: dashed;
+        border-width: 1px;
+        color: $color-darka-alpha-70;
+        margin-bottom: 4px;
+        margin-top: 4px;
+    }
+}
