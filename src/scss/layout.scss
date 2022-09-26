@@ -1,3 +1,9 @@
+header {
+    display:flex;
+    justify-content: center;
+    //background: yellow;
+}
+
 .full-width {
     display: flex;
     width: 100%;
@@ -5,6 +11,10 @@
 
 .full-vh {
     height: 100vh;
+}
+
+.full {
+    height: 100%;
 }
 
 .container {
@@ -15,6 +25,18 @@
     flex-direction: column;
 }
 
+.flex-just-right {
+    justify-content: flex-end;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
 .d-flex {
     display: flex;
+}
+
+.test-red {
+    background: red;
 }
