@@ -1,0 +1,29 @@
+.services--card {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0;
+    color: white;
+    &.golden {
+        background-image: linear-gradient(bottom, $color-golden, $color-golden 70%, transparent 70%, transparent 100%);
+        background-image: -webkit-linear-gradient(bottom, $color-golden, $color-golden 70%, transparent 70%, transparent 100%)  
+    }
+    &.golden-dark {
+        background-image: linear-gradient(bottom, $color-golden-dark, $color-golden-dark 70%, transparent 70%, transparent 100%);
+        background-image: -webkit-linear-gradient(bottom, $color-golden-dark, $color-golden-dark 70%, transparent 70%, transparent 100%)
+    }
+    img {
+        width: 100%;
+        max-width: 320px;
+        border-radius: 50%;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+    p {
+        color: $color-beige;
+    }
+
+}
