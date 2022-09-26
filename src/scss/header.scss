@@ -1,6 +1,46 @@
 .header--content {
     width: 50%;
-    background: yellow;
-    color: blue;
     height: 50%;
+    color: white;
+    span {
+        color: $color-golden;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-size: 1.2rem;
+    }
+    h2 {
+        font-size: 4.5rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+        span {
+            color: White;
+            font-weight: 700;
+            font-size: 4.5rem;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke: 1px;
+        }
+    }
+}
+
+.header--content_text {
+    padding-left: 30%;
+    border-left: 2px solid $color-golden;
+    font-size: 1.2rem;
+    p {
+        line-height: 34px;
+        margin-bottom: 4rem;
+    }
+    a {
+        border: $color-golden solid 2px;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $color-golden;
+        &:hover {
+            background: $color-golden;
+            color: white;
+        }
+    }
+
 }
