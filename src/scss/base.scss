@@ -15,8 +15,11 @@ $color-gray: #B9B9B7;
 $color-gray-dark: #333333;
 
 // Font
+$font-primary: 'Barlow Semi Condensed', sans-serif;
+$font-paragraph: 'Poppins', sans-serif;
+
 h1, h2, h3, h4 {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: $font-primary;
     margin: 0;
     padding: 0;
 }
@@ -27,7 +30,7 @@ h2 {
     font-weight: 700;
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: $font-primary;
 }
 
 a {
@@ -43,7 +46,7 @@ hr {
 }
 
 span {
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: $font-primary;
     font-weight: 700;
     text-transform: uppercase;
     margin-bottom: 1rem;
@@ -51,7 +54,7 @@ span {
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: $font-paragraph;
     background: white;
     margin: 0;
 }

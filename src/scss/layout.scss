@@ -25,6 +25,10 @@ header, section {
     flex-direction: column;
 }
 
+.flex-row {
+    flex-direction: row;
+}
+
 .flex-just-right {
     justify-content: flex-end;
 }
