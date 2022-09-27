@@ -1,4 +1,4 @@
-header, section {
+header, section, footer {
     display:flex;
     justify-content: center;
     //background: yellow;
@@ -47,6 +47,10 @@ header, section {
 
 .bg-beige {
     background: $color-beige;
+}
+
+.bg-dark-gray {
+    background: $color-gray-dark;
 }
 
 .test-red {
