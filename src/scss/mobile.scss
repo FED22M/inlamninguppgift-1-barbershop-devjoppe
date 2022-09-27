@@ -1,0 +1,29 @@
+@media screen and (max-width: 992px) {
+
+    .container {
+        width: 100%;
+    }
+
+    .m-flex-column {
+        flex-direction: column;
+    }
+    
+    .m-hide {
+        display: none !important;
+    }
+
+    footer {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .footer--block {
+        margin-bottom: 0;
+    }
+
+    .image--block {
+        flex: none;
+        height: 500px;
+    }
+
+}
