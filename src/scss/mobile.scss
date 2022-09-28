@@ -22,11 +22,11 @@
     }
     // End Layout
 
-    //Start Navigantion
-.navbar {
-    display: inline-block;
-    height: auto;
-}
+    // Start Navigation
+    .navbar {
+        display: inline-block;
+        height: auto;
+    }
 
     .navbar--content {
         align-items: flex-start;
@@ -56,6 +56,10 @@
         }
     }
 
+    button {
+        display: inline-block;
+    }
+
     .btn-menu {
         background: none;
         border: none;
@@ -71,12 +75,9 @@
     .showMenu {
         display: block;
     }
-
+    // End Navigation
     
-
-    //End Navigation
-    
-    //Start Header
+    // Start Header
     .header--content {
         width: 100%;
         height: 100%;
@@ -93,26 +94,15 @@
             line-height: 28px;
         }
     }
-    //End Header
+    // End Header
 
-    // Start Footer
-    footer {
-        padding-top: 0;
-        padding-bottom: 0;
+    // Start banner
+    .banner-image {
+        background-image: url("../images/main-banner-mobile.webp");
+        background-size: 150%;
+        background-repeat: no-repeat;
     }
-
-    .footer--block {
-        margin-bottom: 0;
-        .title {
-            font-size: 1.5rem;
-        }
-    }
-    // End Footer
-
-    .image--block {
-        flex: none;
-        height: 500px;
-    }
+    // End banner
 
     // Start Services
     .services--card {
@@ -132,7 +122,57 @@
             max-width: 150px;
         }
     }
-
     // End Services
 
+    // Start About us
+    .image--block {
+        flex: none;
+        margin: 1rem;
+    }
+
+    .text--block {
+        padding: 0;
+        margin: 1rem;
+        h2 {
+            margin-bottom: 0.5rem;
+        }
+        span {
+            font-size: 2.5rem;
+        }
+    }
+    // End About us
+
+    // Start Testimonials
+        .testimonials--content {
+            margin: 56px 1rem 56px 1rem;
+            .testimonials--content_text {
+                width: 100%;
+                span {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    // End Testimonials
+
+    // Start Footer
+    footer {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .footer--block {
+        margin-bottom: 0;
+        .title {
+            font-size: 1.5rem;
+        }
+    }
+
+    .social-icons {
+        >.icon {
+            font-size: 1.2rem;
+            width: 48px;
+            height: 48px;
+        }
+    }
+    // End Footer
 }

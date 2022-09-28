@@ -48,10 +48,11 @@
 // Image block
 .image--block {
     flex: 1;
-    background-image: url("../images/about-us.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 800px;
+    display: inline-block;
+    position: relative;
+    img {
+        width: 100%;
+    }
 }
 
 .years--block {
