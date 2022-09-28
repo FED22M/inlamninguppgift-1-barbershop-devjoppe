@@ -31,7 +31,7 @@
     .navbar--content {
         align-items: flex-start;
         .title {
-            margin: 1rem 0 0 1rem;
+            margin: 1rem 0 1rem 1rem;
         }
         .nav {
             text-align: right;
@@ -55,6 +55,15 @@
             }
         }
     }
+
+    .m-closed {
+        display: none;
+    }
+
+    .btn-menu {
+        margin: 1rem 1rem 0 0;
+    }
+
     //End Navigation
     
     //Start Header
