@@ -56,13 +56,23 @@
         }
     }
 
-    .m-closed {
+    .btn-menu {
+        background: none;
+        border: none;
+        .closeIcon {
+            display: none;
+        }
+    }
+
+    .menu {
         display: none;
     }
 
-    .btn-menu {
-        margin: 1rem 1rem 0 0;
+    .showMenu {
+        display: block;
     }
+
+    
 
     //End Navigation
     
@@ -93,6 +103,9 @@
 
     .footer--block {
         margin-bottom: 0;
+        .title {
+            font-size: 1.5rem;
+        }
     }
     // End Footer
 
@@ -101,6 +114,7 @@
         height: 500px;
     }
 
+    // Start Services
     .services--card {
         &.golden {
             background-image: linear-gradient(bottom, $color-golden, $color-golden 83%, $color-golden-dark 83%, $color-golden-dark 100%);
@@ -118,4 +132,7 @@
             max-width: 150px;
         }
     }
+
+    // End Services
+
 }

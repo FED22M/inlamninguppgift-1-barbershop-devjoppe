@@ -1,7 +1,18 @@
-function toggleMobileMenu(menu, btnOpen, btnClose) {
-    document.getElementById(menu).classList.toggle('m-open');
-    document.getElementById(btnOpen).classList.toggle('m-closed');
-    document.getElementById(btnClose).classList.toggle('m-open');
-    console.log(menu);
-    console.log(btnOpen);
+const menu = document.querySelector(".menu");
+const btnMenu= document.querySelector(".btn-menu");
+const closeIcon= document.querySelector(".closeIcon");
+const menuIcon = document.querySelector(".menuIcon");
+
+function toggleMenu() {
+  if (menu.classList.contains("showMenu")) {
+    menu.classList.remove("showMenu");
+    closeIcon.style.display = "none";
+    menuIcon.style.display = "block";
+  } else {
+    menu.classList.add("showMenu");
+    closeIcon.style.display = "block";
+    menuIcon.style.display = "none";
+  }
 }
+
+btnMenu.addEventListener("click", toggleMenu);
