@@ -7,9 +7,9 @@
 
 Lösningen: https://www.joakimottosson.se/projects/barbershop/
 
-Personal Github: X
+Personal Github: https://github.com/devjoppe/mi-barbershop
 
-Personal Github pages: X
+Personal Github pages: https://devjoppe.github.io/mi-barbershop/
 
 ### Kod :computer:
 
@@ -26,7 +26,7 @@ I mappen :open_file_folder: ***screenshots*** finns skärmdumpar från testade w
 
 Att utifrån ett underlag bygga upp en webbsida genom att endast använda HTML5 och CSS (Javascript valfritt).
 
-Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerade sidans design för olika upplsöningar. Min uppgift var att koda fram en responsiv design baserat på detta underlag.
+Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerade sidans design för olika upplösningar. Min uppgift var att koda fram en responsiv design baserat på detta underlag.
 
 1. Skapade en wireframe baserat på designen för att snabbt kunna omsätta layouten till kod.
 2. Tog fram en HTML-struktur.
@@ -46,11 +46,11 @@ Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerad
 Så enkelt med ack så viktigt. Även om det inte känns så i början så kommer man spara tid, kod och andra problem. :scream:
 
 
-**SCSS**
+:ok_hand: **SCSS**
 
 Låt det ta lite längre tid i början för att strukturera upp din kod bättre.
 
 
-**srcset, size, .webp**
+:clap: **srcset, size, .webp**
 
 Nytt sätt att arbeta med bilder.
