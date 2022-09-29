@@ -1,7 +1,16 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8642266&assignment_repo_type=AssignmentRepo)
-## Inlämningsuppgift 1
+# Inlämningsuppgift 1 - Barbershop :barber:
 
-I mappen **brief** finns en kort brief från kunden, samt design filer för webbsajten.
-Ni skall alltså utgå ifrån dessa. Strukturen ska efterliknas efter bästa förmåga, och för designen gäller det som står i briefen, sant designfilerna.
+![](screenshot/01-Chrome/Chrome.desktop-1920-01_Header_Nav.jpg)
+## Överblick
+
+### Länkar
+
+Lösningen: https://joakimottosson.se/projects/barbershop/
+Github: X
+Github pages: X
+
+### Screenshots :computer:
+
+I mappen *screenshots* finns skärmdumpar från testade webbläsare med olika upplösningar.
 
 Joakim testar
