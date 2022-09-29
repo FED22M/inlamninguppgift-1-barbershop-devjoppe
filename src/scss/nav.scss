@@ -38,23 +38,13 @@ button {
                 a.selected {
                     color: $color-golden;
                 }
+                a:hover {
+                    color: $color-golden;
+                    text-decoration: underline;
+                    transition: all .2s ease-in;
+                }
             }
         }
     
-    }
-}
-
-.navbar--dashed {
-    position: fixed;
-    z-index: 10;
-    top: 80px;
-    width: inherit;
-    background: $color-darka-alpha-80;
-    hr {
-        border-style: dashed;
-        border-width: 1px;
-        color: $color-darka-alpha-70;
-        margin-bottom: 4px;
-        margin-top: 4px;
     }
 }
