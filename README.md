@@ -30,7 +30,7 @@ Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerad
 
 1. Skapade en wireframe baserat på designen för att snabbt kunna omsätta layouten till kod.
 2. Tog fram en HTML-struktur.
-3. Började koda design och layout i SCSS.
+3. Koda design och layout i SCSS.
 4. Test och justeringar.
 5. Klar.
 ### Byggd med :construction:
