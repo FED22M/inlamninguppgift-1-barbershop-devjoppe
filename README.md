@@ -11,11 +11,16 @@ Personal Github: X
 
 Personal Github pages: X
 
-Sidans kod ligger i mappen <font color="blue">***src***</font>
+### KOD :computer:
 
-### Screenshots :computer:
+Se mapp: :open_file_folder: ***src***
 
-I mappen <font color="blue">***screenshots***</font> finns skärmdumpar från testade webbläsare med olika upplösningar.
+### Valideringsrapport
+
+Se mapp: :open_file_folder: ***validation-reports***
+### Screenshots 
+
+I mappen :open_file_folder: ***screenshots*** finns skärmdumpar från testade webbläsare med olika upplösningar.
 
 ## Process
 
