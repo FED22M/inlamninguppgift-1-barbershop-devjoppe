@@ -143,15 +143,19 @@
     // End About us
 
     // Start Testimonials
-        .testimonials--content {
-            margin: 56px 1rem 56px 1rem;
-            .testimonials--content_text {
-                width: 100%;
-                span {
-                    font-size: 2.5rem;
-                }
+    .testimonials--content {
+        margin: 56px 1rem 56px 1rem;
+        .testimonials--content_text {
+            width: 100%;
+            span {
+                font-size: 2.5rem;
             }
         }
+    }
+
+    .testimonials--content_feedback-card {
+        min-width: 290px;
+    }
     // End Testimonials
 
     // Start Footer
@@ -175,4 +179,35 @@
         }
     }
     // End Footer
+    // Start Slider
+    .m-slider {
+        width: 320px;
+        height: 390px;
+        overflow: hidden;
+    }
+    .m-slides {
+        display: flex;
+        overflow-x: auto;
+        height: 390px;
+        align-items: flex-end;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    }
+    .m-slides::-webkit-scrollbar {
+        width: 10px;
+        height: 10px;
+    }
+    .m-slides::-webkit-scrollbar-thumb {
+        background: black;
+        border-radius: 10px;
+      }
+    .m-slides::-webkit-scrollbar-track {
+    background: transparent;
+    }
+    .m-slides > div {
+        scroll-snap-align: start;
+        transition: transform 0.5s;
+    }
+    //End Slider
 }

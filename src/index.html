@@ -8,7 +8,7 @@
     <!-- My styles -->
     <link rel="stylesheet" href="css/style-min.css">
     <!-- Font awsome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
 </head>
 <body>
     <div class="full-width banner-image flex-column">
@@ -57,7 +57,7 @@
         <!-- End: Header -->
         <!-- End: Navbar and Header -->
         <!-- Start: Our services -->
-        <section id="services" class="m-flex-column m-services--card">
+        <section id="services" class="m-flex-column m-services--card" aria-label="Services">
             <div class="services--card golden m-first-card">
                 <img
                 srcset="images/service_02-hair-320.webp 992w, images/service_02-hair-700.webp 1439w"
@@ -96,7 +96,7 @@
     <!-- Start: Main -->
     <main>
         <!-- Start: About barber -->
-        <section id="About">
+        <section id="About" aria-label="About us">
             <div class="container d-flex m-flex-column">
                 <div class="image--block">
                     <img
@@ -123,59 +123,64 @@
         </section>
         <!-- End: About barber -->
         <!-- Start: Testimonials -->
-        <section id="testimonials" class="bg-beige">
+        <section id="testimonials" class="bg-beige" aria-label="Testimonials">
             <div class="container">
                 <div class="testimonials--content d-flex flex-align-center flex-column">
                     <div class="testimonials--content_text">
                         <h2>Testimonials</h2>
                         <span>People say<br />about our barber</span>
                     </div>
-                    <div class="testimonials--content_feedback d-flex flex-row flex-just-center">
-                        <div class="testimonials--content_feedback-card">
-                            <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
-                            <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
-                            <div class="feedback--card_description d-flex flex-align-center">
-                                <div class="image">
-                                    <img src="images/testimonials_01-person_A-560.webp" alt="A picture of Ridley Scott">
-                                </div>
-                                <div class="details d-flex flex-column">
-                                    <div class="stars">
-                                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                    <div class="testimonials--content_feedback d-flex flex-row flex-just-center m-slider">
+                        <div class="m-slides">
+                            <!-- Slide 1 -->
+                            <div class="testimonials--content_feedback-card">
+                                <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
+                                <div id="testimonial-1" class="feedback--card_description d-flex flex-align-center">
+                                    <div class="image">
+                                        <img src="images/testimonials_01-person_A-560.webp" alt="A picture of Ridley Scott">
                                     </div>
-                                    <span class="name">Ridley Scott</span>
-                                    <span class="type">Customer</span>
+                                    <div class="details d-flex flex-column">
+                                        <div class="stars">
+                                            &#9733;&#9733;&#9733;&#9733;&#9733;
+                                        </div>
+                                        <span class="name">Ridley Scott</span>
+                                        <span class="type">Customer</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="testimonials--content_feedback-card m-hide">
-                            <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
-                            <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
-                            <div class="feedback--card_description d-flex flex-align-center">
-                                <div class="image">
-                                    <img src="images/testimonials_02-person_B-560.webp" alt="A picture of Ellen Ripley">
-                                </div>
-                                <div class="details d-flex flex-column">
-                                    <div class="stars">
-                                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                            <!-- Slide 2 -->
+                            <div class="testimonials--content_feedback-card">
+                                <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
+                                <div id="testimonial-2" class="feedback--card_description d-flex flex-align-center">
+                                    <div class="image">
+                                        <img src="images/testimonials_02-person_B-560.webp" alt="A picture of Ellen Ripley">
                                     </div>
-                                    <span class="name">Ellen Ripley</span>
-                                    <span class="type">Hunter</span>
+                                    <div class="details d-flex flex-column">
+                                        <div class="stars">
+                                            &#9733;&#9733;&#9733;&#9733;&#9733;
+                                        </div>
+                                        <span class="name">Ellen Ripley</span>
+                                        <span class="type">Hunter</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="testimonials--content_feedback-card m-hide">
-                            <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
-                            <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
-                            <div class="feedback--card_description d-flex flex-align-center">
-                                <div class="image">
-                                    <img src="images/testimonials_03-person_C-560.webp" alt="A picture of Dwayne Hicks">
-                                </div>
-                                <div class="details d-flex flex-column">
-                                    <div class="stars">
-                                        &#9733;&#9733;&#9733;&#9733;&#9733;
+                            <!-- Slide 3 -->
+                            <div class="testimonials--content_feedback-card">
+                                <div class="quote"><i class="fa-solid fa-quote-left"></i></div>
+                                <p>Far far away, behind the word mountains, far from countries Vokalia and Consonantia, there live the blind text.</p>
+                                <div id="testimonial-3" class="feedback--card_description d-flex flex-align-center">
+                                    <div class="image">
+                                        <img src="images/testimonials_03-person_C-560.webp" alt="A picture of Dwayne Hicks">
                                     </div>
-                                    <span class="name">Dwayne Hicks</span>
-                                    <span class="type">Corpral</span>
+                                    <div class="details d-flex flex-column">
+                                        <div class="stars">
+                                            &#9733;&#9733;&#9733;&#9733;&#9733;
+                                        </div>
+                                        <span class="name">Dwayne Hicks</span>
+                                        <span class="type">Corpral</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
