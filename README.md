@@ -11,7 +11,7 @@ Personal Github: X
 
 Personal Github pages: X
 
-### KOD :computer:
+### Kod :computer:
 
 Se mapp: :open_file_folder: ***src***
 
