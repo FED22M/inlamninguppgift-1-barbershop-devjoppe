@@ -1,6 +1,6 @@
 # Inlämningsuppgift 1 - Barbershop :barber:
 
-![](screenshots/01-Chrome/Chrome.desktop-1920-01_Header_Nav.jpg)
+![](/screenshots/01-Chrome/Chrome-desktop-1920-01_Header_Nav.jpg)
 ## Överblick
 
 ### Länkar
@@ -11,9 +11,11 @@ Personal Github: X
 
 Personal Github pages: X
 
+Sidans kod ligger i mappen <font color="blue">***src***</font>
+
 ### Screenshots :computer:
 
-I mappen **screenshots** finns skärmdumpar från testade webbläsare med olika upplösningar.
+I mappen <font color="blue">***screenshots***</font> finns skärmdumpar från testade webbläsare med olika upplösningar.
 
 ## Process
 
@@ -26,10 +28,24 @@ Underlaget bestod av en kortare beskrivning och ett antal bilder som illustrerad
 3. Började koda design och layout i SCSS.
 4. Test och justeringar.
 5. Klar.
-### Byggd med
+### Byggd med :construction:
 
 - Semantisk HTML5
 - SCSS/CSS
 - JS (mobil navigering)
 
 ### Lärdomar
+
+:warning: **Alltid "mobile first".**
+
+Så enkelt med ack så viktigt. Även om det inte känns så i början så kommer man spara tid, kod och andra problem. :scream:
+
+
+**SCSS**
+
+Låt det ta lite längre tid i början för att strukturera upp din kod bättre.
+
+
+**srcset, size, .webp**
+
+Nytt sätt att arbeta med bilder.
