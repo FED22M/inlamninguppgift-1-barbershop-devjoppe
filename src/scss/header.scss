@@ -1,0 +1,42 @@
+.header--content {
+    width: 50%;
+    height: 50%;
+    color: white;
+    span {
+        color: white;
+        font-size: 4.5rem;
+    }
+}
+
+span {
+    &.outliner {
+    color: white;
+    font-weight: 700;
+    font-size: 4.5rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    }
+}
+
+.header--content_text {
+    padding-left: 30%;
+    border-left: 2px solid $color-golden;
+    font-size: 1.2rem;
+    p {
+        line-height: 34px;
+        margin-bottom: 4rem;
+    }
+    a {
+        display: inline-block;
+        border: $color-golden solid 3px;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: $color-golden;
+        &:hover {
+            background: $color-golden;
+            color: white;
+        }
+    }
+
+}

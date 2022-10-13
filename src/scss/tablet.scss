@@ -1,0 +1,53 @@
+@media screen and (min-width: 992px) and (max-width: 1439px) {
+
+    // Start Layout
+    .container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .t-align-start {
+        align-items: flex-start;
+    }
+
+    .m-margin {
+        margin: 0 2rem 0 2rem;
+    }
+
+    //Start Header
+    .header--content {
+        height: 100%;
+        height: auto;
+        span {
+            font-size: 3.5rem;
+        }
+        p {
+            font-size: 1rem;
+        }
+        a {
+            font-size: 1rem;
+        }
+    }
+
+    .header--content_text {
+        padding-left: 20%;
+    }
+    //End Header
+
+    //Start Service Cards
+    .services--card {
+        &.golden {
+            background-image: linear-gradient(bottom, $color-golden, $color-golden 80%, transparent 80%, transparent 100%);
+            background-image: -webkit-linear-gradient(bottom, $color-golden, $color-golden 80%, transparent 80%, transparent 100%)  
+        }
+        &.golden-dark {
+            background-image: linear-gradient(bottom, $color-golden-dark, $color-golden-dark 80%, transparent 80%, transparent 100%);
+            background-image: -webkit-linear-gradient(bottom, $color-golden-dark, $color-golden-dark 80%, transparent 80%, transparent 100%)
+        }
+        img {
+            width: 70%;
+        }
+    }
+    //End Service Cards
+
+}

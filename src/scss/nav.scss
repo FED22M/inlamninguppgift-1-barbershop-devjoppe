@@ -1,0 +1,50 @@
+button {
+    display: none;
+}
+
+.navbar {
+    position: fixed;
+    z-index: 10;
+    background: $color-darka-alpha-70;
+    align-items: center;
+    height:80px;
+    justify-content: center;
+}
+
+.navbar--content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    .title {
+        h1 {
+            color: white;
+            font-weight: bold;
+            font-size: 1.75rem;
+        }
+    }
+    .nav {
+        ul {
+            list-style: none;
+            li {
+                display: inline-block;
+                margin-left: 2rem;
+                a {
+                    font-family: 'Barlow Semi Condensed', sans-serif;
+                    font-size: 1.125rem;
+                    font-weight: 700;
+                    color: $color-gray;              
+                }
+                a.selected {
+                    color: $color-golden;
+                }
+                a:hover {
+                    color: $color-golden;
+                    text-decoration: underline;
+                    transition: all .2s ease-in;
+                }
+            }
+        }
+    
+    }
+}

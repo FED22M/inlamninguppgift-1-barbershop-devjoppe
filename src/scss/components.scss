@@ -1,0 +1,178 @@
+// Service cards
+.services--card {
+    text-align: center;
+    padding: 2rem;
+    padding-top: 0;
+    color: white;
+    &.golden {
+        background-image: linear-gradient(bottom, $color-golden, $color-golden 70%, transparent 70%, transparent 100%);
+        background-image: -webkit-linear-gradient(bottom, $color-golden, $color-golden 70%, transparent 70%, transparent 100%)  
+    }
+    &.golden-dark {
+        background-image: linear-gradient(bottom, $color-golden-dark, $color-golden-dark 70%, transparent 70%, transparent 100%);
+        background-image: -webkit-linear-gradient(bottom, $color-golden-dark, $color-golden-dark 70%, transparent 70%, transparent 100%)
+    }
+    img {
+        width: 100%;
+        max-width: 300px;
+        border-radius: 50%;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin-top: 2rem;
+    }
+    p {
+        color: $color-beige;
+    }
+}
+
+// Text block
+.text--block {
+    flex: 1;
+    padding: 64px;
+    padding-top: 128px;
+    h2 {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+    span {
+        font-size: 3.4rem;
+    }
+    p {
+        color: $color-gray-dark;
+    }
+}
+
+// Image block
+.image--block {
+    flex: 1;
+    display: inline-block;
+    position: relative;
+    img {
+        width: 100%;
+    }
+}
+
+.years--block {
+    background: $color-golden;
+    color: white;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 2rem;
+    font-family: $font-primary;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 60%;
+    >.icon {
+        margin-right: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        font-size: 2rem;
+        background: $color-dark;
+        width: 70px;
+        height: 70px;
+    }
+    span {
+        font-size: 2rem;
+        display: block;
+        width: 100%;
+        color: white;
+        margin-bottom: 0;
+        margin-top: 0;
+        &.text {
+            font-size: 1rem;
+        }
+    }
+}
+
+// Testimonials
+.testimonials--content {
+    margin-top: 128px;
+    margin-bottom: 128px;
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+.testimonials--content_text {
+    text-align: center;
+    width: 40%;
+    max-width: 450px;
+    margin-bottom: 64px;
+    span {
+        font-size: 3.4rem;
+    }
+}
+
+.testimonials--content_feedback-card {
+    background: white;
+    width: 290px;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.10);
+    >.quote {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: $color-golden;
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+        color: white;
+        top: -40px;
+        z-index: 1;
+    }
+    p {
+        margin-top: 0;
+        color: $color-gray-dark;
+    }
+    >.feedback--card_description {
+        >.image {
+            margin-right: 1rem;
+            width: 110px;
+            max-width: 110px;
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        >.details {
+            >.stars {
+                font-size: 1.2rem;
+                color: $color-golden;
+            }
+            >.name {
+                font-family: $font-paragraph;
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+                font-size: 1.2rem;
+                text-transform: none;
+            }
+            >.type {
+                font-family: $font-paragraph;
+                color: $color-golden;
+                font-weight: 600;
+                font-size: 0.8rem;
+            }
+        }
+    }
+}
+
+// Start Mobile Slider reset
+    .m-slider {
+        width: inherit;
+    }
+    .m-slides {
+        display: flex;
+    }
+// End Mobile Slider reset

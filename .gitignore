@@ -1,1 +1,6 @@
 .DS_Store
+prepros.config
+src/css/base.css
+src/css/mobile.css
+screenshots/photo-source/
+brief/

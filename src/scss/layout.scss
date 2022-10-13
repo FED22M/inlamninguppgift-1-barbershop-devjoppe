@@ -1,0 +1,58 @@
+header, section, footer {
+    display:flex;
+    justify-content: center;
+    //background: yellow;
+}
+
+.full-width {
+    display: flex;
+    width: 100%;
+}
+
+.full-vh {
+    height: 100vh;
+}
+
+.full {
+    height: 100%;
+}
+
+.container {
+    width: 1440px;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-just-right {
+    justify-content: flex-end;
+}
+
+.flex-just-center {
+    justify-content: center;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.bg-beige {
+    background: $color-beige;
+}
+
+.bg-dark-gray {
+    background: $color-gray-dark;
+}
+
+.test-red {
+    background: red;
+}
